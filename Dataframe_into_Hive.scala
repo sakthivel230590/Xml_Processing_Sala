@@ -1,0 +1,1 @@
+#write the contents in the dataframe into a hive table in ORC formatdf5.write.format("orc").mode(SaveMode.Overwrite).saveAsTable("new_dataframe")#Use Hive Context to query the filehiveContext.sql(select * from Dataframe )

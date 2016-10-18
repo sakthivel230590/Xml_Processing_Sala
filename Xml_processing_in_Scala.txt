@@ -1,0 +1,2 @@
+Built a scala application to process complex xml files using Spark XML and DataFrame API . the parsed the information and stored the data in HIve
+implemented various data persistence layers in HIVE
